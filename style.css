@@ -308,9 +308,18 @@ nav div{
     display: none;
 }
 .ul{
+    max-height: 330px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  
     /* padding-bottom: 20px; */
     /* padding: 20px; */
 }
+.ul::-webkit-scrollbar{
+    display: none;
+  }
+  
 .project{
     padding: 15px ;
     padding-bottom: 10px;
